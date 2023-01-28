@@ -43,7 +43,7 @@ $.get("https://api.quran.com/api/v4/chapters/"+suraAr[surahIndex].getAttribute("
 var playing=false
 
 function playSurah(){
-    console.log(playing)
+
     $.get("https://api.quran.com/api/v4/chapter_recitations/2/"+(surahIndex+1), function(response) { // get surah audio        
 
         if (playing==false){ // play
