@@ -44,10 +44,11 @@ var playing=false
 
 function playSurah(){
     console.log(playing)
-    $.get("https://api.quran.com/api/v4/chapter_recitations/2/"+(surahIndex+1), function(response) { // get surah audio
-        var surahAudio = new Audio(response.audio_file.audio_url);
-        
+    $.get("https://api.quran.com/api/v4/chapter_recitations/2/"+(surahIndex+1), function(response) { // get surah audio        
+
         if (playing==false){ // play
+            surahAudio = new Audio(response.audio_file.audio_url);
+
             surahAudio.play();
             playing = true
         }else{ // stop
