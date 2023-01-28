@@ -125,9 +125,10 @@
         margin-top: -10px;
     }
 
-    .titleButton{
-
+    .surahTextArb{
+        font-size: 20px;
     }
+
 
     .titleButton button{
         border: none;
@@ -520,11 +521,11 @@
                         <button onclick="playSurah()" id="surahAudioButton">▶</button>
                     </div>
 
-                    <h4 id="surahTitleArb" class="surahTitle">Surah</h4>
+                    <h2 id="surahTitleArb" class="surahTitle surahTitleArb">Surah</h2>
 
-                    <p class="surahText" id="surahTextArb"></p>
+                    <p class="surahText surahTextArb" id="surahTextArb"></p>
                     <hr width="90%" opacity=".5" color="#f12a11">
-                    <p class="surahText" id="surahTextEng"></p>
+                    <p class="surahText surahTextTranslation" id="surahTextEng"></p>
                 </div>
 
                 <div class="container" id="hadithContainer">
@@ -713,8 +714,8 @@
             }, "json")
     </script>
 
-    <script src="javascript/getSurah.js"></script>
-    
+    <script src="javascript/get-surah.js"></script>
+    <script src="javascript/get-hadith.js"></script>
 
 </body>
 

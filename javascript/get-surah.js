@@ -51,10 +51,14 @@ function playSurah(){
 
             surahAudio.play();
             playing = true
+
+            document.getElementById("surahAudioButton").innerHTML = "||"
         }else{ // stop
             surahAudio.currentTime = 0; 
             surahAudio.pause();
             playing = false
+
+            document.getElementById("surahAudioButton").innerHTML = "▶"
         }
 
     }, "json")
