@@ -1,0 +1,502 @@
+[
+    {
+        "index": "1.",
+        "name": "ALLAH c.c.",
+        "text": "T\u00fcm isim ve s\u0131fatlar\u0131 kendinde toplayan."
+    },
+    {
+        "index": "2.",
+        "name": "Er-Rahm\u00e2n",
+        "text": "Rahmetiyle muamele eden, esirgeyen."
+    },
+    {
+        "index": "3.",
+        "name": "Er-Rahim",
+        "text": "Merhamet eden, ba\u011f\u0131\u015flayan."
+    },
+    {
+        "index": "4.",
+        "name": "El-Melik",
+        "text": "M\u00fclk\u00fcn ger\u00e7ek sahibi, m\u00fclk ve saltanat\u0131 devaml\u0131 olan."
+    },
+    {
+        "index": "5.",
+        "name": "El-Kudd\u00fbs",
+        "text": "Her t\u00fcrl\u00fc eksiklik ve ay\u0131plardan m\u00fcnezzeh olan."
+    },
+    {
+        "index": "6.",
+        "name": "Es-Sel\u00e2m",
+        "text": "Kullar\u0131n\u0131 sel\u00e2mete \u00e7\u0131karan."
+    },
+    {
+        "index": "7.",
+        "name": "El-M\u00fc\u2019min",
+        "text": "G\u00f6n\u00fcllerde iman \u0131\u015f\u0131\u011f\u0131 uyand\u0131ran."
+    },
+    {
+        "index": "8.",
+        "name": "El-M\u00fcheymin",
+        "text": "G\u00f6zeten ve koruyan."
+    },
+    {
+        "index": "9.",
+        "name": "El-Aziz",
+        "text": "Ma\u011flup edilmesi asla m\u00fcmk\u00fcn olmayan."
+    },
+    {
+        "index": "10.",
+        "name": " El-Cebb\u00e2r",
+        "text": "\u0130stedi\u011fini mutlak yapan, diledi\u011fine muktedir olan."
+    },
+    {
+        "index": "11.",
+        "name": " El-M\u00fctekebbir",
+        "text": "Her \u015feyde b\u00fcy\u00fckl\u00fc\u011f\u00fcn\u00fc g\u00f6steren."
+    },
+    {
+        "index": "12.",
+        "name": " El-H\u00e2l\u0131k",
+        "text": "Her \u015feyi yoktan var eden."
+    },
+    {
+        "index": "13.",
+        "name": " El-B\u00e2r\u00ee",
+        "text": "Her \u015feyi uygun bir tarzda ve birbirine uygun yaratan."
+    },
+    {
+        "index": "14.",
+        "name": " El-Musavvir",
+        "text": "Her \u015feye bir \u015fekil ve hususiyet verip tasvir eden."
+    },
+    {
+        "index": "15.",
+        "name": " El-Gaff\u00e2r",
+        "text": "Kullar\u0131n\u0131n g\u00fcnahlar\u0131n\u0131 \u00f6rten, g\u00fcnahlar\u0131n\u0131 ba\u011f\u0131\u015flayan."
+    },
+    {
+        "index": "16.",
+        "name": " El-Kahh\u00e2r",
+        "text": "Her \u015feye, her istedi\u011fini yapacak surette galip ve hakim olan."
+    },
+    {
+        "index": "17.",
+        "name": " El-Vehh\u00e2b",
+        "text": "\u00c7ok fazla ihsan eden."
+    },
+    {
+        "index": "18.",
+        "name": " Er-Rezz\u00e2k",
+        "text": "B\u00fct\u00fcn mahlukat\u0131n r\u0131zk\u0131n\u0131 veren ve ihtiyac\u0131n\u0131 kar\u015f\u0131layan."
+    },
+    {
+        "index": "19.",
+        "name": " El-Fett\u00e2h",
+        "text": "Her t\u00fcrl\u00fc zorluklar\u0131 kolayla\u015ft\u0131ran, darl\u0131ktan kurtaran."
+    },
+    {
+        "index": "20.",
+        "name": " El-Al\u00eem",
+        "text": "Her \u015feyi en ince noktas\u0131na kadar bilen, ilmi ebedi ve ezeli olan."
+    },
+    {
+        "index": "21.",
+        "name": " El-K\u00e2b\u0131d",
+        "text": "Diledi\u011fine darl\u0131k veren, s\u0131kan, daraltan."
+    },
+    {
+        "index": "22.",
+        "name": " El-B\u00e2s\u0131t",
+        "text": "Diledi\u011fine bolluk veren, a\u00e7an, geni\u015fleten."
+    },
+    {
+        "index": "23.",
+        "name": " El-H\u00e2f\u0131d",
+        "text": "Yukar\u0131dan a\u015fa\u011f\u0131ya indiren, al\u00e7altan."
+    },
+    {
+        "index": "24.",
+        "name": " Er-R\u00e2f\u00ee",
+        "text": "Yukar\u0131 kald\u0131ran, y\u00fckselten."
+    },
+    {
+        "index": "25.",
+        "name": " El-Muiz",
+        "text": "\u0130zzet verip a\u011f\u0131rlayan."
+    },
+    {
+        "index": "26.",
+        "name": " El-Muzil",
+        "text": "Zillete d\u00fc\u015f\u00fcren, hor ve hakir eden."
+    },
+    {
+        "index": "27.",
+        "name": " Es-Sem\u00ee",
+        "text": "Her \u015feyi i\u015fiten."
+    },
+    {
+        "index": "28.",
+        "name": " El-Bas\u00eer",
+        "text": "Her \u015feyi g\u00f6ren."
+    },
+    {
+        "index": "29.",
+        "name": " El-Hakem",
+        "text": "Her i\u015fte hikmet ve adaletle h\u00fckmeden."
+    },
+    {
+        "index": "30.",
+        "name": " El-Adl",
+        "text": "Son derece adaletli olan."
+    },
+    {
+        "index": "31.",
+        "name": " El-Lat\u00eef",
+        "text": "\u0130\u015flerin b\u00fct\u00fcn inceliklerini bilen."
+    },
+    {
+        "index": "32.",
+        "name": " El-Hab\u00eer",
+        "text": "Her \u015feyin i\u00e7 y\u00fcz\u00fcnden, gizli taraf\u0131ndan haberdar olan."
+    },
+    {
+        "index": "33.",
+        "name": " El-Hal\u00eem",
+        "text": "Yumu\u015fak davranan, hilmi \u00e7ok olan."
+    },
+    {
+        "index": "34.",
+        "name": " El-Az\u00eem",
+        "text": "Pek azametli ve b\u00fcy\u00fck olan."
+    },
+    {
+        "index": "35.",
+        "name": " El-Gaf\u00fbr",
+        "text": "\u00c7ok ba\u011f\u0131\u015flayan, magfireti \u00e7ok olan."
+    },
+    {
+        "index": "36.",
+        "name": " E\u015f-\u015eek\u00fbr",
+        "text": "Kendi r\u0131zas\u0131 i\u00e7in yap\u0131lan iyi i\u015fleri, ziyadesiyle m\u00fckafatland\u0131ran."
+    },
+    {
+        "index": "37.",
+        "name": " El-Aliyy",
+        "text": "\u00c7ok y\u00fcce. Pek y\u00fcksek olan."
+    },
+    {
+        "index": "38.",
+        "name": " El-Keb\u00eer",
+        "text": "B\u00fcy\u00fckl\u00fc\u011f\u00fcnde hudut olmayan."
+    },
+    {
+        "index": "39.",
+        "name": " El-Haf\u00eez",
+        "text": "Yap\u0131lan i\u015fleri b\u00fct\u00fcn tafsilat\u0131yla, ayr\u0131nt\u0131lar\u0131yla tutan."
+    },
+    {
+        "index": "40.",
+        "name": " El-Muk\u00eet",
+        "text": "Yarat\u0131lm\u0131\u015f her \u015feyin az\u0131\u011f\u0131n\u0131 veren."
+    },
+    {
+        "index": "41.",
+        "name": " El-Has\u00eeb",
+        "text": "Herkesin hayat\u0131 boyunca yapt\u0131klar\u0131n\u0131n hesab\u0131n\u0131 soran."
+    },
+    {
+        "index": "42.",
+        "name": " El-Cel\u00eel",
+        "text": "Azamet sahibi olan, ululuk sahibi olan."
+    },
+    {
+        "index": "43.",
+        "name": " El-Ker\u00eem",
+        "text": "\u00c7ok ikram edici. Keremi ve ma\u011ffireti bol olan."
+    },
+    {
+        "index": "44.",
+        "name": " Er-Rak\u00eeb",
+        "text": "B\u00fct\u00fcn varl\u0131klar \u00fczerine g\u00f6zc\u00fc olan."
+    },
+    {
+        "index": "45.",
+        "name": " El-M\u00fcc\u00eeb",
+        "text": "Dua edenlerin dualar\u0131n\u0131 kabul eden, isteklerini veren."
+    },
+    {
+        "index": "46.",
+        "name": " El-V\u00e2s\u00ee",
+        "text": "L\u00fctfu bol olan."
+    },
+    {
+        "index": "47.",
+        "name": " El-Hak\u00eem",
+        "text": "Emirleri, kelam\u0131 ve b\u00fct\u00fcn i\u015fleri hikmetli olan."
+    },
+    {
+        "index": "48.",
+        "name": " El-Ved\u00fbd",
+        "text": "\u0130yi kullar\u0131n\u0131 seven, sevilmeye ve dostlu\u011fa hakk\u0131yla lay\u0131k olan."
+    },
+    {
+        "index": "49.",
+        "name": " El-Mec\u00eed",
+        "text": "\u015ean\u0131 \u00e7ok b\u00fcy\u00fck ve \u00e7ok y\u00fcksek olan."
+    },
+    {
+        "index": "50.",
+        "name": " El-B\u00e2is",
+        "text": "\u00d6l\u00fcleri diriltip kabirlerinden \u00e7\u0131karan."
+    },
+    {
+        "index": "51.",
+        "name": " E\u015f-\u015eeh\u00eed",
+        "text": "Her zaman ve her yerde haz\u0131r ve naz\u0131r olan."
+    },
+    {
+        "index": "52.",
+        "name": " El-Hakk",
+        "text": "Vacib'ul v\u00fccut olan, varl\u0131\u011f\u0131 hi\u00e7 de\u011fi\u015fmeden duran."
+    },
+    {
+        "index": "53.",
+        "name": " El-Vek\u00eel",
+        "text": "\u0130\u015flerini kendisine b\u0131rakanlar\u0131n i\u015fini d\u00fczelten ve her \u015feyin iyisini temin eden."
+    },
+    {
+        "index": "54.",
+        "name": " El-Kaviyy",
+        "text": "Pek kuvvetli. Pek g\u00fc\u00e7l\u00fc olan."
+    },
+    {
+        "index": "55.",
+        "name": " El-Met\u00een",
+        "text": "\u00c7ok sa\u011flam olan."
+    },
+    {
+        "index": "56.",
+        "name": " El-Veliyy",
+        "text": "\u0130yi kullar\u0131na, ger\u00e7ek m\u00fc\u2019minlere dost olan."
+    },
+    {
+        "index": "57.",
+        "name": " El-Ham\u00eed",
+        "text": "Her t\u00fcrl\u00fc hamd ve \u00f6vg\u00fcye lay\u0131k olan."
+    },
+    {
+        "index": "58.",
+        "name": " El-Muhs\u00ee",
+        "text": "\u0130stisnas\u0131z her \u015feyin tek tek say\u0131s\u0131n\u0131 bilen."
+    },
+    {
+        "index": "59.",
+        "name": " El-M\u00fcbdi",
+        "text": "B\u00fct\u00fcn mahlukat\u0131 maddesiz ve \u00f6rneksiz olarak ilk ba\u015ftan yaratan."
+    },
+    {
+        "index": "60.",
+        "name": " El-Muid",
+        "text": "Yarat\u0131lm\u0131\u015flar\u0131 yok ettikten sonra tekrar yaratan."
+    },
+    {
+        "index": "61.",
+        "name": " El-Muhy\u00ee",
+        "text": "\u0130hya eden, dirilten, can ba\u011f\u0131\u015flayan, sa\u011fl\u0131k veren."
+    },
+    {
+        "index": "62.",
+        "name": " El-M\u00fcm\u00eet",
+        "text": "\u00d6l\u00fcm\u00fc yaratan, \u00f6ld\u00fcren."
+    },
+    {
+        "index": "63.",
+        "name": " El-Hayy",
+        "text": "Diri, tam ve m\u00fckemmel manas\u0131yla hayat sahibi."
+    },
+    {
+        "index": "64.",
+        "name": " El-Kayy\u00fbm",
+        "text": "G\u00f6kleri, yeri ve her \u015feyi tutan."
+    },
+    {
+        "index": "65.",
+        "name": " El-V\u00e2cid",
+        "text": "\u0130stedi\u011fini, istedi\u011fi vakit bulan."
+    },
+    {
+        "index": "66.",
+        "name": " El-M\u00e2cid",
+        "text": "Kadri b\u00fcy\u00fck, keremi bol olan."
+    },
+    {
+        "index": "67.",
+        "name": " El-V\u00e2hid",
+        "text": "Tek olan."
+    },
+    {
+        "index": "68.",
+        "name": " Es-Samed",
+        "text": "S\u0131\u011f\u0131nacak tek dayanak olan."
+    },
+    {
+        "index": "69.",
+        "name": " El-K\u00e2dir",
+        "text": "Her \u015feye g\u00fcc\u00fc yeten, her istedi\u011fini yapmaya k\u00e2dir olan."
+    },
+    {
+        "index": "70.",
+        "name": " El-Muktedir",
+        "text": "Kuvvet ve kudret sahipleri \u00fczerinde diledi\u011fi gibi tasarruf eden."
+    },
+    {
+        "index": "71.",
+        "name": " El-Mukaddim",
+        "text": "\u0130stedi\u011fini ileri ge\u00e7irip, \u00f6ne alan."
+    },
+    {
+        "index": "72.",
+        "name": " El-Muahhir",
+        "text": "\u0130stedi\u011fini geri koyan, arkaya b\u0131rakan."
+    },
+    {
+        "index": "73.",
+        "name": " El-Evvel",
+        "text": "Ba\u015flang\u0131c\u0131 olmayan, ilk olan."
+    },
+    {
+        "index": "74.",
+        "name": " El-\u00c2hir",
+        "text": "Biti\u015fi olmayan, son olan."
+    },
+    {
+        "index": "75.",
+        "name": " Ez-Z\u00e2hir",
+        "text": "A\u00e7\u0131kca bilinen, \u00e2\u015fik\u00e2r olan."
+    },
+    {
+        "index": "76.",
+        "name": " El-B\u00e2t\u0131n",
+        "text": "Gizli olan."
+    },
+    {
+        "index": "77.",
+        "name": " El-V\u00e2l\u00ee",
+        "text": "Her \u015feyi tek ba\u015f\u0131na idare eden."
+    },
+    {
+        "index": "78.",
+        "name": " El-M\u00fcte\u00e2l\u00ee",
+        "text": "Akl\u0131n m\u00fcmk\u00fcn g\u00f6rd\u00fc\u011f\u00fc her \u015feyden, her h\u00e2l ve tav\u0131rdan m\u00fcnezzeh olan."
+    },
+    {
+        "index": "79.",
+        "name": " El-Berr",
+        "text": "Kullar\u0131na iyilik ve ihsan\u0131, nimetleri bol olan."
+    },
+    {
+        "index": "80.",
+        "name": " Et-Tevv\u00e2b",
+        "text": "T\u00f6vbeleri kabul eden."
+    },
+    {
+        "index": "81.",
+        "name": " El-M\u00fcntakim",
+        "text": "Su\u00e7lular\u0131 adaletiyle cezaland\u0131r\u0131p intikam alan."
+    },
+    {
+        "index": "82.",
+        "name": " El-Af\u00fcvv",
+        "text": "Aff\u0131 ve rahmeti \u00e7ok olan, ba\u011f\u0131\u015flayan."
+    },
+    {
+        "index": "83.",
+        "name": " Er-Ra\u00fbf",
+        "text": "Pek ac\u0131yan, l\u00fctuf ve merhametle pek esirgeyen."
+    },
+    {
+        "index": "84.",
+        "name": " M\u00e2lik\u00fc\u2019l-M\u00fclk",
+        "text": "M\u00fclk\u00fcn ebedi sahibi olan."
+    },
+    {
+        "index": "85.",
+        "name": " Z\u00fc\u2019l- Celal-i ve\u2019l-\u0130kram",
+        "text": "Her t\u00fcrl\u00fc b\u00fcy\u00fckl\u00fc\u011f\u00fcn, her t\u00fcrl\u00fc keremin sahibi olan."
+    },
+    {
+        "index": "86.",
+        "name": " El-Muks\u0131t",
+        "text": "B\u00fct\u00fcn i\u015fleri birbirine uygun ve denk yapan."
+    },
+    {
+        "index": "87.",
+        "name": " El-C\u00e2m\u00ee",
+        "text": "\u0130stedi\u011fini istedi\u011fi zaman istedi\u011fi yerde toplayan."
+    },
+    {
+        "index": "88.",
+        "name": " El-Gan\u00eeyy",
+        "text": "\u00c7ok zengin olan."
+    },
+    {
+        "index": "89.",
+        "name": " El-Mu\u011fn\u00ee",
+        "text": "\u0130stedi\u011fini zengin eden."
+    },
+    {
+        "index": "90.",
+        "name": " El-M\u00e2n\u00ee",
+        "text": "Baz\u0131 \u015feylerin meydana gelmesine m\u00fcsaade etmeyen, engelleyen."
+    },
+    {
+        "index": "91.",
+        "name": " Ed-D\u00e2r",
+        "text": "Elem ve zarar verecek \u015feyleri yaratan, h\u00fcsrana ugratan."
+    },
+    {
+        "index": "92.",
+        "name": " En-N\u00e2fi",
+        "text": "Hay\u0131r ve menfaat verecek \u015feyleri yaratan."
+    },
+    {
+        "index": "93.",
+        "name": " En-N\u00fbr",
+        "text": "Alemleri nurland\u0131ran."
+    },
+    {
+        "index": "94.",
+        "name": " El-H\u00e2d\u00ee",
+        "text": "Hidayete ve do\u011fru yola erdiren."
+    },
+    {
+        "index": "95.",
+        "name": " El-Bed\u00ee",
+        "text": "\u00d6rneksiz, misilsiz, hayret verici nice \u00e2lemler icad eden."
+    },
+    {
+        "index": "96.",
+        "name": " El-B\u00e2ki",
+        "text": "Varl\u0131\u011f\u0131n\u0131n sonu bulunmayan, ebedi olan."
+    },
+    {
+        "index": "97.",
+        "name": " El-V\u00e2ris",
+        "text": "Servetlerin ger\u00e7ek sahibi olan."
+    },
+    {
+        "index": "98.",
+        "name": " Er-Re\u015fid",
+        "text": "B\u00fct\u00fcn i\u015fleri ezeli takdirine uygun bir nizam ve hikmet \u00fczere sonuna ula\u015ft\u0131ran."
+    },
+    {
+        "index": "99.",
+        "name": " Es-Sab\u00fbr",
+        "text": "\u00c7ok sab\u0131rl\u0131 olan."
+    },
+    {
+        "index": "99.",
+        "name": " Es-Sab\u00fbr",
+        "text": "\u00c7ok sab\u0131rl\u0131 olan."
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "index": "1.",
+        "name": "ALLAH c.c.",
+        "text": "Sammler von Namen und Adjektive in sich."
+    },
+    {
+        "index": "2.",
+        "name": "Ar-Rahman",
+        "text": "Der mit Barmherzigkeit behandelt und zur\u00fcckh\u00e4lt."
+    },
+    {
+        "index": "3.",
+        "name": "Ar-Rahiim",
+        "text": "Der Barmherzigkeit hat und vergibt."
+    },
+    {
+        "index": "4.",
+        "name": "Al-Malik",
+        "text": "Der eigentliche Eigent\u00fcmer, deren Herrschaft dauerhaft ist."
+    },
+    {
+        "index": "5.",
+        "name": "Al-qudduus",
+        "text": "Der von allen Arten von M\u00e4ngeln frei ist"
+    },
+    {
+        "index": "6.",
+        "name": "As-salaam",
+        "text": "Der seine Diener zum Frieden bringt."
+    },
+    {
+        "index": "7.",
+        "name": "Al-mu'min",
+        "text": "Der das Licht des Glaubens in den Herzen erweckt"
+    },
+    {
+        "index": "8.",
+        "name": "Al-muhaimin",
+        "text": "Der zuschaut und sch\u00fctzt"
+    },
+    {
+        "index": "9.",
+        "name": "Al-aziz",
+        "text": "Der niemals besiegt werden kann"
+    },
+    {
+        "index": "10.",
+        "name": " Al-dschabbaar",
+        "text": "Der alles tut, was er will"
+    },
+    {
+        "index": "11.",
+        "name": " Al-mutakabbir",
+        "text": "Der allem Gr\u00f6\u00dfe zeigt"
+    },
+    {
+        "index": "12.",
+        "name": " Al-chaaliq",
+        "text": "Der, der alles aus dem Nichts macht"
+    },
+    {
+        "index": "13.",
+        "name": " Al-bari",
+        "text": "Der alles in einem angemessenen Stil und in Harmonie miteinander erschafft"
+    },
+    {
+        "index": "14.",
+        "name": " Al-musawwir",
+        "text": "Der allem eine Form und einen Charakter gibt und es darstellt"
+    },
+    {
+        "index": "15.",
+        "name": " Al-ghaffaar",
+        "text": "Der die S\u00fcnden seiner Diener verbirgt"
+    },
+    {
+        "index": "16.",
+        "name": " Al-qahhaar",
+        "text": "Der in allem siegreich ist"
+    },
+    {
+        "index": "17.",
+        "name": " Al-wahhaab",
+        "text": "Der viel schenkt"
+    },
+    {
+        "index": "18.",
+        "name": " Ar-razzaaq",
+        "text": "Der Nahrung gibt und die Bed\u00fcrfnisse aller Kreaturen erf\u00fcllt"
+    },
+    {
+        "index": "19.",
+        "name": " Al-Fattah",
+        "text": "Der alle Arten von Schwierigkeiten erleichtert und beseitigt"
+    },
+    {
+        "index": "20.",
+        "name": " Al-aliim",
+        "text": "Der alles bis zum Feinsten wei\u00df, deren Wissen ewig ist"
+    },
+    {
+        "index": "21.",
+        "name": " Al-qaabid",
+        "text": "Der, denjenigen \u00c4rger macht und sich verengt"
+    },
+    {
+        "index": "22.",
+        "name": " Al-baasit",
+        "text": "Der, der F\u00fclle gibt, \u00f6ffnet und erweitert"
+    },
+    {
+        "index": "23.",
+        "name": " Al-chaafidh",
+        "text": "Der, der jemanden von oben nach unten senkt"
+    },
+    {
+        "index": "24.",
+        "name": " Ar-raafi",
+        "text": "Der, der jemanden erhebt"
+    },
+    {
+        "index": "25.",
+        "name": " Al-mu-izz",
+        "text": "Der Ehre gibt und begr\u00fc\u00dft"
+    },
+    {
+        "index": "26.",
+        "name": " Al-mudhill",
+        "text": "Der dem\u00fctigt und verachtet"
+    },
+    {
+        "index": "27.",
+        "name": " As-samii",
+        "text": "Der alles h\u00f6rt"
+    },
+    {
+        "index": "28.",
+        "name": " Al-basiir",
+        "text": "Der alles sieht"
+    },
+    {
+        "index": "29.",
+        "name": " Al-hakam",
+        "text": "Der mit Weisheit und Gerechtigkeit regiert"
+    },
+    {
+        "index": "30.",
+        "name": " Al-Adl",
+        "text": "Der extrem gerecht ist"
+    },
+    {
+        "index": "31.",
+        "name": " Al-latiif",
+        "text": "Der alle Feinheiten kennt"
+    },
+    {
+        "index": "32.",
+        "name": " Al-chabiir",
+        "text": "Der alles von der inneren Seite kennt"
+    },
+    {
+        "index": "33.",
+        "name": " Al-haliim",
+        "text": "Der sich sanft verh\u00e4lt"
+    },
+    {
+        "index": "34.",
+        "name": " Al-aziim",
+        "text": "Der gro\u00dfartig und gro\u00df ist"
+    },
+    {
+        "index": "35.",
+        "name": " Al-ghafuur",
+        "text": "Der viel vergibt"
+    },
+    {
+        "index": "36.",
+        "name": " Asch-schakuur",
+        "text": "Der, die gute Taten hoch belohnt"
+    },
+    {
+        "index": "37.",
+        "name": " Al-aali",
+        "text": "Der sehr hoch"
+    },
+    {
+        "index": "38.",
+        "name": " Al-kabiir",
+        "text": "Der keine Grenzen in der Gr\u00f6\u00dfe hat"
+    },
+    {
+        "index": "39.",
+        "name": " Al-hafiiz",
+        "text": "Der alle geleisteten Arbeit aufbewahrt"
+    },
+    {
+        "index": "40.",
+        "name": " Al-muqiit",
+        "text": "Der das Wenige von allem Erschaffenen gibt"
+    },
+    {
+        "index": "41.",
+        "name": " Al-hasiib",
+        "text": "Der nach dem fragt, was jeder in seinem Leben tut"
+    },
+    {
+        "index": "42.",
+        "name": " Al-dschaliil",
+        "text": "Der die Gr\u00f6\u00dfe hat"
+    },
+    {
+        "index": "43.",
+        "name": " Al-kariim",
+        "text": "Der voller Vergebung ist"
+    },
+    {
+        "index": "44.",
+        "name": " Al-raqiib",
+        "text": "Der \u00fcber alle Wesen wacht"
+    },
+    {
+        "index": "45.",
+        "name": " Al-Mudschib",
+        "text": "Der Gebete annimmt"
+    },
+    {
+        "index": "46.",
+        "name": " Al-wasii",
+        "text": "Der reichlich ist"
+    },
+    {
+        "index": "47.",
+        "name": " Al-hakiim",
+        "text": "Deren Gebote, Worte und alle Taten weise sind"
+    },
+    {
+        "index": "48.",
+        "name": " Al-Wadud",
+        "text": "Der seine guten Diener liebt"
+    },
+    {
+        "index": "49.",
+        "name": " Al-madschiid",
+        "text": "Dessen Ruhm zu gro\u00df und zu hoch ist"
+    },
+    {
+        "index": "50.",
+        "name": " Al-ba-ith",
+        "text": "Der die Toten auferweckt und aus ihren Gr\u00e4bern holt"
+    },
+    {
+        "index": "51.",
+        "name": " Asch-schahiid",
+        "text": "Der immer und \u00fcberall bereit und aufmerksam ist"
+    },
+    {
+        "index": "52.",
+        "name": " Al-haqq",
+        "text": "Dessen Anwesenheit unver\u00e4ndert bleibt"
+    },
+    {
+        "index": "53.",
+        "name": " Al-wakiil",
+        "text": "Der f\u00fcr das Beste von allem sorgt"
+    },
+    {
+        "index": "54.",
+        "name": " Al-qawii",
+        "text": "Der sehr stark ist"
+    },
+    {
+        "index": "55.",
+        "name": " Al-matiin",
+        "text": "Der sehr fest ist"
+    },
+    {
+        "index": "56.",
+        "name": " Al-walii",
+        "text": "Der ein Freund seiner guten Diener ist"
+    },
+    {
+        "index": "57.",
+        "name": " Al-hamiid",
+        "text": "Der allen Lobes w\u00fcrdig ist"
+    },
+    {
+        "index": "58.",
+        "name": " Al-muhsii",
+        "text": "Der die individuelle Anzahl von allem kennt"
+    },
+    {
+        "index": "59.",
+        "name": " Al-mubdii",
+        "text": "Der alle Kreaturen ohne Materie und ohne Beispiel erschaffen hat"
+    },
+    {
+        "index": "60.",
+        "name": " Al-mu-iid",
+        "text": "Der die Kreaturen neu erschafft"
+    },
+    {
+        "index": "61.",
+        "name": " Al-muhiiyy",
+        "text": "Der wiederbelebt, Leben spendet, Gesundheit gibt"
+    },
+    {
+        "index": "62.",
+        "name": " Al-mumiit",
+        "text": "Der den Tod macht und t\u00f6tet"
+    },
+    {
+        "index": "63.",
+        "name": " Al-hayy",
+        "text": "Der vollst\u00e4ndig und perfekt lebt"
+    },
+    {
+        "index": "64.",
+        "name": " Al-qayyuum",
+        "text": "Der Himmel, Erde und alles h\u00e4lt"
+    },
+    {
+        "index": "65.",
+        "name": " Al-waadschid",
+        "text": "Der alles findet, was er will und wann er will"
+    },
+    {
+        "index": "66.",
+        "name": " Al-maadschid",
+        "text": "Der viel macht hat"
+    },
+    {
+        "index": "67.",
+        "name": " Al-wahid",
+        "text": "Der einzige"
+    },
+    {
+        "index": "68.",
+        "name": " As-samad",
+        "text": "Der der einzige Schutz ist"
+    },
+    {
+        "index": "69.",
+        "name": " Al-qaadir",
+        "text": "Der allm\u00e4chtig und f\u00e4hig ist"
+    },
+    {
+        "index": "70.",
+        "name": " Al-muqtadir",
+        "text": "Der die Macht spart, wie er es w\u00fcnscht"
+    },
+    {
+        "index": "71.",
+        "name": " Al-muqaddim",
+        "text": "Der vorbringt, was er will"
+    },
+    {
+        "index": "72.",
+        "name": " Al-mu'achchir",
+        "text": "Der zur\u00fccklegt, was er will"
+    },
+    {
+        "index": "73.",
+        "name": " Al-awwal",
+        "text": "Der erste"
+    },
+    {
+        "index": "74.",
+        "name": " Al-aachir",
+        "text": "Der kein Ende hat, der letzte"
+    },
+    {
+        "index": "75.",
+        "name": " Az-zaahir",
+        "text": "Der offensichtliche, selbstverst\u00e4ndliche"
+    },
+    {
+        "index": "76.",
+        "name": " Al-baatin",
+        "text": "Der versteckte"
+    },
+    {
+        "index": "77.",
+        "name": " Al-waalii",
+        "text": "Der alles alleine schafft"
+    },
+    {
+        "index": "78.",
+        "name": " Al-muta-aali",
+        "text": "Der frei von allem ist"
+    },
+    {
+        "index": "79.",
+        "name": " Al-barr",
+        "text": "Deren Freundlichkeit und Gunst gegen\u00fcber seinen Dienern und Gaben reichlich vorhanden ist"
+    },
+    {
+        "index": "80.",
+        "name": " At-thawwaab",
+        "text": "Der die Reue akzeptiert"
+    },
+    {
+        "index": "81.",
+        "name": " Al-muntaqim",
+        "text": "Der die Verbrecher mit Gerechtigkeit bestraft"
+    },
+    {
+        "index": "82.",
+        "name": " Al-afw",
+        "text": "Der viel vergibt"
+    },
+    {
+        "index": "83.",
+        "name": " Ar-ra-uuf",
+        "text": "Der so viel Mitleid hat"
+    },
+    {
+        "index": "84.",
+        "name": " Maalik-ul-mulk",
+        "text": "Der ewige Eigent\u00fcmer"
+    },
+    {
+        "index": "85.",
+        "name": "Dhu-l-dschalaali\nwa l-ikraam",
+        "text": "Der alle Arten von Gr\u00f6\u00dfen besitzt."
+    },
+    {
+        "index": "86.",
+        "name": " Al-muqsit",
+        "text": "Der die ganze Arbeit auf eine Weise erledigt"
+    },
+    {
+        "index": "87.",
+        "name": " Al-dschaami",
+        "text": "Der alles sammeln kann"
+    },
+    {
+        "index": "88.",
+        "name": " Al-ghanii",
+        "text": "Der reichliche"
+    },
+    {
+        "index": "89.",
+        "name": " Al-mughnii",
+        "text": "Der reich macht"
+    },
+    {
+        "index": "90.",
+        "name": " Al-maanii",
+        "text": "Der verhindert, dass manche Dinge passieren"
+    },
+    {
+        "index": "91.",
+        "name": " Ad-daar",
+        "text": "Der Dinge geschaffen hat"
+    },
+    {
+        "index": "92.",
+        "name": " An-nafi",
+        "text": "Der gute und n\u00fctzliche Dinge schafft"
+    },
+    {
+        "index": "93.",
+        "name": " An-nuur",
+        "text": "Der Bereiche aufhellt"
+    },
+    {
+        "index": "94.",
+        "name": " Al-hadii",
+        "text": "Der den richtigen Weg f\u00fchrt"
+    },
+    {
+        "index": "95.",
+        "name": " Al-badi",
+        "text": "Der viele Bereiche erschaffen hat"
+    },
+    {
+        "index": "96.",
+        "name": " Al-baaqi",
+        "text": "Der ewig ist"
+    },
+    {
+        "index": "97.",
+        "name": " Al-waarith",
+        "text": "Der wahre Besitzer des Verm\u00f6gens ist"
+    },
+    {
+        "index": "98.",
+        "name": " Ar-raaschid",
+        "text": "Der alle Angelegenheiten in einer ewigen Ordnung und Weisheit zum Ende gebracht hat"
+    },
+    {
+        "index": "99.",
+        "name": " As-sabuur",
+        "text": "Der sehr geduldig ist"
+    },
+    {
+        "index": "99.",
+        "name": " As-Sabuur",
+        "text": "The one who is very patient."
+    }
+]
