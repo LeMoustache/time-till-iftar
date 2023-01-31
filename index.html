@@ -121,12 +121,21 @@
         margin: 3px;
     }
 
-    .surahTitle{
+    .otherTitles{
         margin-top: -10px;
+    }
+
+    .otherText{
+        line-height: 1.6;
     }
 
     .surahTextArb{
         font-size: 20px;
+    }
+
+    .hadithText{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 
@@ -322,11 +331,11 @@
                             <h4 style="text-decoration: underline white;font-size: 16px;">Settings</h4>
                             <div class="langSet">
                                 <p>Choose Language</p>
-                                <input type="radio" name="lang" value="en" checked>
-                                <label for="en">🇬🇧</label><br>
+                                <input type="radio" name="lang" value="eng" checked>
+                                <label for="eng">🇬🇧</label><br>
     
-                                <input type="radio" name="lang" value="tr">
-                                <label for="tr">🇹🇷</label><br>
+                                <input type="radio" name="lang" value="tur">
+                                <label for="tur">🇹🇷</label><br>
     
                                 <input type="radio" name="lang" value="de">
                                 <label for="de">🇩🇪</label><br>
@@ -420,7 +429,7 @@
                             </div>
 
                             <div class="submitSet">
-                                <button class="submitSetButton" id="submitSetButton" onclick="translateSurah()">Save</button>
+                                <button class="submitSetButton" id="submitSetButton" onclick="translatePage()">Save</button>
                             </div>
 
                         </div>
@@ -515,22 +524,23 @@
             <div class="otherHolder">
 
                 <div class="container" id="surahContainer">
-
+                    
                     <div class="titleButton" style="display:flex;justify-content: center;">
                         <h3 id="surahTitleEng">Surah</h3>
                         <button onclick="playSurah()" id="surahAudioButton">▶</button>
                     </div>
 
-                    <h2 id="surahTitleArb" class="surahTitle surahTitleArb">Surah</h2>
+                    <h2 id="surahTitleArb" class="otherTitles surahTitleArb">Surah</h2>
 
-                    <p class="surahText surahTextArb" id="surahTextArb"></p>
+                    <p class="otherText surahTextArb" id="surahTextArb"></p>
                     <hr width="90%" opacity=".5" color="#f12a11">
-                    <p class="surahText surahTextTranslation" id="surahTextEng"></p>
+                    <p class="surahTextTranslation" id="surahTextEng"></p>
                 </div>
 
                 <div class="container" id="hadithContainer">
-                    <h3>Hadith</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, facere.</p>
+                    <h3 id="hadithTitle">Hadith</h3>
+                    <h4 id="hadithGiver" class="otherTitles">Hadith</h4>
+                    <p class="otherText hadithText" id="hadithText"></p>
                 </div>
 
                 <div class="container" id="prayerContainer">
@@ -716,6 +726,8 @@
 
     <script src="javascript/get-surah.js"></script>
     <script src="javascript/get-hadith.js"></script>
+    <script src="javascript/get-name.js"></script>
+    <script>function translatePage(){translateSurah();translateHadith()}</script>
 
 </body>
 

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<names>
+	<name index="1" name="Allah" text="Tüm isim ve sıfatları kendinde toplayan."></name>
+	<name index="2" name="Er-Rahmân" text="Rahmetiyle muamele eden, esirgeyen."></name>
+	<name index="3" name="Er-Rahim" text="Merhamet eden, bağışlayan."></name>
+	<name index="4" name="El-Melik" text="Mülkün gerçek sahibi, mülk ve saltanatı devamlı olan."></name>
+	<name index="5" name="El-Kuddûs" text="Her türlü eksiklik ve ayıplardan münezzeh olan."></name>
+	<name index="6" name="Es-Selâm" text="Kullarını selâmete çıkaran."></name>
+	<name index="7" name="El-Mü’min" text="Gönüllerde iman ışığı uyandıran."></name>
+	<name index="8" name="El-Müheymin" text="Gözeten ve koruyan."></name>
+	<name index="9" name="El-Aziz" text="Mağlup edilmesi asla mümkün olmayan."></name>
+	<name index="10" name="El-Cebbâr" text="İstediğini mutlak yapan, dilediğine muktedir olan."></name>
+	
+	<name index="11" name="El-Mütekebbir" text="Her şeyde büyüklüğünü gösteren."></name>
+	<name index="12" name="El-Hâlık" text="Her şeyi yoktan var eden."></name>
+	<name index="13" name="El-Bârî" text="Her şeyi uygun bir tarzda ve birbirine uygun yaratan."></name>
+	<name index="14" name="El-Musavvir" text="Her şeye bir şekil ve hususiyet verip tasvir eden."></name>
+	<name index="15" name="El-Gaffâr" text="Kullarının günahlarını örten, günahlarını bağışlayan."></name>
+	<name index="16" name="El-Kahhâr" text="Her şeye, her istediğini yapacak surette galip ve hakim olan."></name>
+	<name index="17" name="El-Vehhâb" text="Çok fazla ihsan eden."></name>
+	<name index="18" name="Er-Rezzâk" text="Bütün mahlukatın rızkını veren ve ihtiyacını karşılayan."></name>
+	<name index="19" name="El-Fettâh" text="Her türlü zorlukları kolaylaştıran, darlıktan kurtaran."></name>
+	<name index="20" name="El-Alîm" text="Her şeyi en ince noktasına kadar bilen, ilmi ebedi ve ezeli olan."></name>
+
+	<name index="21" name="El-Kâbıd" text="Dilediğine darlık veren, sıkan, daraltan."></name>
+	<name index="22" name="El-Bâsıt" text="Dilediğine bolluk veren, açan, genişleten."></name>
+	<name index="23" name="El-Hâfıd" text="Yukarıdan aşağıya indiren, alçaltan."></name>
+	<name index="24" name="Er-Râfî" text="Yukarı kaldıran, yükselten."></name>
+	<name index="25" name="El-Muiz" text="İzzet verip ağırlayan."></name>
+	<name index="26" name="El-Muzil" text="Zillete düşüren, hor ve hakir eden."></name>
+	<name index="27" name="Es-Semî" text="Her şeyi işiten."></name>
+	<name index="28" name="El-Basîr" text="Her şeyi gören."></name>
+	<name index="29" name="El-Hakem" text="Her işte hikmet ve adaletle hükmeden."></name>
+	<name index="30" name="El-Adl" text="Son derece adaletli olan."></name>
+
+	<name index="31" name="El-Latîf" text="İşlerin bütün inceliklerini bilen."></name>
+	<name index="32" name="El-Habîr" text="Her şeyin iç yüzünden, gizli tarafından haberdar olan."></name>
+	<name index="33" name="El-Halîm" text="Yumuşak davranan, hilmi çok olan."></name>
+	<name index="34" name="El-Azîm" text="Pek azametli ve büyük olan."></name>
+	<name index="35" name="El-Gafûr" text="Çok bağışlayan, magfireti çok olan."></name>
+	<name index="36" name="Eş-Şekûr" text="Kendi rızası için yapılan iyi işleri, ziyadesiyle mükafatlandıran."></name>
+	<name index="37" name="El-Aliyy" text="Çok yüce. Pek yüksek olan."></name>
+	<name index="38" name="El-Kebîr" text="Büyüklüğünde hudut olmayan."></name>
+	<name index="39" name="El-Hafîz" text="Yapılan işleri bütün tafsilatıyla, ayrıntılarıyla tutan."></name>
+	<name index="40" name="El-Mukît" text="Yaratılmış her şeyin azığını veren."></name>
+
+	<name index="41" name="El-Hasîb" text="Herkesin hayatı boyunca yaptıklarının hesabını soran."></name>
+	<name index="42" name="El-Celîl" text="Azamet sahibi olan, ululuk sahibi olan."></name>
+	<name index="43" name="El-Kerîm" text="Çok ikram edici. Keremi ve mağfireti bol olan."></name>
+	<name index="44" name="Er-Rakîb" text="Bütün varlıklar üzerine gözcü olan."></name>
+	<name index="45" name="El-Mücîb" text="Dua edenlerin dualarını kabul eden, isteklerini veren."></name>
+	<name index="46" name="El-Vâsî" text="Lütfu bol olan."></name>
+	<name index="47" name="El-Hakîm" text="Emirleri, kelamı ve bütün işleri hikmetli olan."></name>
+	<name index="48" name="El-Vedûd" text="İyi kullarını seven, sevilmeye ve dostluğa hakkıyla layık olan."></name>
+	<name index="49" name="El-Mecîd" text="Şanı çok büyük ve çok yüksek olan."></name>
+	<name index="50" name="El-Bâis" text="Ölüleri diriltip kabirlerinden çıkaran."></name>
+
+	<name index="51" name="Eş-Şehîd" text="Her zaman ve her yerde hazır ve nazır olan."></name>
+	<name index="52" name="El-Hakk" text="Vacib'ul vücut olan, varlığı hiç değişmeden duran."></name>
+	<name index="53" name="El-Vekîl" text="İşlerini kendisine bırakanların işini düzelten ve her şeyin iyisini temin eden."></name>
+	<name index="54" name="El-Kaviyy" text="Pek kuvvetli. Pek güçlü olan."></name>
+	<name index="55" name="El-Metîn" text="Çok sağlam olan."></name>
+	<name index="56" name="El-Veliyy" text="İyi kullarına, gerçek mü’minlere dost olan."></name>
+	<name index="57" name="El-Hamîd" text="Her türlü hamd ve övgüye layık olan."></name>
+	<name index="58" name="El-Muhsî" text="İstisnasız her şeyin tek tek sayısını bilen."></name>
+	<name index="59" name="El-Mübdi" text="Bütün mahlukatı maddesiz ve örneksiz olarak ilk baştan yaratan."></name>
+	<name index="60" name="El-Muid" text="Yaratılmışları yok ettikten sonra tekrar yaratan."></name>
+
+	<name index="61" name="El-Muhyî" text="İhya eden, dirilten, can bağışlayan, sağlık veren."></name>
+	<name index="62" name="El-Mümît" text="Ölümü yaratan, öldüren."></name>
+	<name index="63" name="El-Hayy" text="Diri, tam ve mükemmel manasıyla hayat sahibi."></name>
+	<name index="64" name="El-Kayyûm" text="Gökleri, yeri ve her şeyi tutan."></name>
+	<name index="65" name="El-Vâcid" text="İstediğini, istediği vakit bulan."></name>
+	<name index="66" name="El-Mâcid" text="Kadri büyük, keremi bol olan."></name>
+	<name index="67" name="El-Vâhid" text="Tek olan."></name>
+	<name index="68" name="Es-Samed" text="Sığınacak tek dayanak olan."></name>
+	<name index="69" name="El-Kâdir" text="Her şeye gücü yeten, her istediğini yapmaya kâdir olan."></name>
+	<name index="70" name="El-Muktedir" text="Kuvvet ve kudret sahipleri üzerinde dilediği gibi tasarruf eden."	></name>
+
+	<name index="71" name="El-Mukaddim" text="İstediğini ileri geçirip, öne alan."></name>
+	<name index="72" name="El-Muahhir" text="İstediğini geri koyan, arkaya bırakan."></name>
+	<name index="73" name="El-Evvel" text="Başlangıcı olmayan, ilk olan."></name>
+	<name index="74" name="El-Âhir" text="Bitişi olmayan, son olan."></name>
+	<name index="75" name="Ez-Zâhir" text="Açıkca bilinen, âşikâr olan."></name>
+	<name index="76" name="El-Bâtın" text="Gizli olan."></name>
+	<name index="77" name="El-Vâlî" text="Her şeyi tek başına idare eden."></name>
+	<name index="78" name="El-Müteâlî" text="Aklın mümkün gördüğü her şeyden, her hâl ve tavırdan münezzeh olan."></name>
+	<name index="79" name="El-Berr" text="Kullarına iyilik ve ihsanı, nimetleri bol olan."></name>
+	<name index="80" name="Et-Tevvâb" text="Tövbeleri kabul eden."></name>
+
+	<name index="81" name="El-Müntakim" text="Suçluları adaletiyle cezalandırıp intikam alan."></name>
+	<name index="82" name="El-Afüvv" text="Affı ve rahmeti çok olan, bağışlayan."></name>
+	<name index="83" name="Er-Raûf" text="Pek acıyan, lütuf ve merhametle pek esirgeyen."></name>
+	<name index="84" name="Mâlikü’l-Mülk" text="Mülkün ebedi sahibi olan."></name>
+	<name index="85" name="Zü’l- Celal-i ve’l-İkram" text="Her türlü büyüklüğün, her türlü keremin sahibi olan."></name>
+	<name index="86" name="El-Muksıt" text="Bütün işleri birbirine uygun ve denk yapan."></name>
+	<name index="87" name="El-Câmî" text="İstediğini istediği zaman istediği yerde toplayan."></name>
+	<name index="88" name="El-Ganîyy" text="Çok zengin olan."></name>
+	<name index="89" name="El-Muğnî" text="İstediğini zengin eden."></name>
+	<name index="90" name="El-Mânî" text="Bazı şeylerin meydana gelmesine müsaade etmeyen, engelleyen."></name>
+
+	<name index="91" name="Ed-Dâr" text="Elem ve zarar verecek şeyleri yaratan, hüsrana ugratan."></name>
+	<name index="92" name="En-Nâfi" text="Hayır ve menfaat verecek şeyleri yaratan."></name>
+	<name index="93" name="En-Nûr" text="Alemleri nurlandıran."></name>
+	<name index="94" name="El-Hâdî" text="Hidayete ve doğru yola erdiren."></name>
+	<name index="95" name="El-Bedî" text="Örneksiz, misilsiz, hayret verici nice âlemler icad eden."></name>
+	<name index="96" name="El-Bâki" text="Varlığının sonu bulunmayan, ebedi olan."></name>
+	<name index="97" name="El-Vâris" text="Servetlerin gerçek sahibi olan."></name>
+	<name index="98" name="Er-Reşid" text="Bütün işleri ezeli takdirine uygun bir nizam ve hikmet üzere sonuna ulaştıran."></name>
+	<name index="99" name="Es-Sabûr" text="Çok sabırlı olan."></name>
+
+</names>
