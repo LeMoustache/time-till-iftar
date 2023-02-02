@@ -1,0 +1,29 @@
+{
+   "eng" : {
+      "language":"eng",
+      "time-till-iftar":"Time until Iftar",
+      "hadith":"Hadith",
+      "reminder-text":"What did you do for God today?",
+      "settings":"Settings",
+      "choose-language":"Choose Language",
+      "choose-language-adhan":"Choose Adhan Language",
+      "choose-city":"Choose City",
+      "save":"Save",
+      "ramadan-mubarak":"Ramadan Mubarak",
+      "quran-radio":"Quran Radio"
+   },
+
+   "tur" : {
+        "language":"tur",
+        "time-till-iftar":"İftara kalan süre",
+        "hadith":"Hadis",
+        "reminder-text":"Bugün Allah için ne yaptın?",
+        "settings":"Ayarlar",
+        "choose-language":"Dil Seç",
+        "choose-language-adhan":"Ezan Dili Seç",
+        "choose-city":"Şehir Seç",
+        "save":"Kaydet",
+        "ramadan-mubarak":"Ramazanınız Mübarek Olsun",
+        "quran-radio":"Kuran Radyo"
+     }
+}

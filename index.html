@@ -144,6 +144,94 @@
         background: none;
     }
 
+    .quranRadioContainer{
+        display: flex;
+
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .QrRadioPlay{
+        background: none;
+    }
+
+    .quranRadioContCntr{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        justify-content: center;
+
+        width: 80%;
+        height: 50px;
+
+        margin-bottom: 15px;
+    }
+
+    .QrDrpdwnBttn{
+        margin-top: 5px;
+
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: center;
+
+        background: none;
+        outline: none;
+
+        width: 100%;
+
+        border: #dd270fa6 2px solid;
+        border-top: none;
+        border-bottom: none;
+
+        border-radius: 3px;
+    }
+
+    .QrRadioVolume{
+        accent-color: #f12a11;
+
+        width: 30%;
+    }
+
+    .datesHolder{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .datesHolder .date{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dateDay{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linkHolder{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 5px;
+    }
+
+    .linkHolder a{
+        text-decoration: none;
+        color: black;
+    }
+    
+
     .footerContainer{
         position: fixed;
         bottom: 0;
@@ -169,6 +257,61 @@
         font-size: 12px;
         
     }
+
+    .reminderContainer{
+        position: fixed;
+
+        justify-self: right;
+        right: -5px;
+        margin-top: 50px;
+        align-self: flex-start;
+
+        min-width: fit-content;
+        max-height: fit-content;
+
+        color: white;
+
+        transition: 1s ease;
+
+    }
+
+    .reminderContainer button{
+        outline: none;
+        background:none;
+
+        color: white;
+    }
+
+    .reminderHolder{
+        display: flex;
+        background-color: rgba(255, 83, 53, 0.856);
+
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .reminderHolder p{
+        margin-left: 20px;
+    }
+
+    .reminderHolder button{
+        margin-left: 7px;
+
+        outline: none;
+        background: none;
+
+        color: white;
+    }
+
+    .reminderHolder .reminderContent{
+        width: 0px;
+        height: 0px;
+        max-width: fit-content;
+
+        transition: 1s ease;
+
+        margin-right: 20px;
+    }
+
 
     .navbarContainer{
         position: fixed;
@@ -272,6 +415,7 @@
         .mainBody{
             grid-template-rows: 50% 10% 7% auto;
         }
+
     }
 
     @media screen and (min-width:700px) {
@@ -287,6 +431,11 @@
         .prayerTimesContainer{
             font-size: 25px;
         }
+
+        .QrDrpdwnBttn{
+            width: 30%;
+        }
+
     }
 
     input{
@@ -314,6 +463,73 @@
 
 <body>
 
+    <div class="reminderContainer" id="reminderContainer">
+        <button onclick="toggleReminder()">
+            <div class="reminderHolder">
+                <p class="reminderIcon">?</p>
+                <div class="reminderContent" id="reminderContent">
+                    <div class="reminderContentHolder" id="reminderContentHolder">
+                        <p class="reminderText" id="reminder-text">What did you do for God today?</p>
+                    </div>
+                </div>
+            </div>
+        </button>
+        
+        <script id="reminderScript">
+            var x = document.getElementById("reminderContent");
+            var y = document.getElementById("reminderContentHolder");
+
+            y.style.opacity = "0"
+            y.style.transitionDelay = ".6s"
+            y.style.transitionDuration = "1s"
+
+            document.getElementById("reminderContainer").onmouseover = function(){
+                x.style.width = "275px";
+
+                y.style.transitionDelay = ".6s"
+                y.style.transitionDuration = "1s"
+
+                y.style.visibility = "visible"
+                y.style.opacity = "1"
+            }
+
+            document.getElementById("reminderContainer").onmouseleave = function(){
+                x.style.width = "0px";
+
+                y.style.transitionDelay = "0.05s"
+                y.style.transitionDuration = "0.09s"
+
+                y.style.visibility = "collapsed"
+                y.style.opacity = "0"
+            }
+
+
+            function toggleReminder() {
+
+                if (x.style.width === "0px") {
+                    x.style.width = "275px";
+
+                    y.style.transitionDelay = ".6s"
+                    y.style.transitionDuration = "1s"
+
+                    y.style.visibility = "visible"
+                    y.style.opacity = "1"
+
+                } else {
+                    x.style.width = "0px";
+
+                    y.style.transitionDelay = "0.05s"
+                    y.style.transitionDuration = "0.09s"
+
+                    y.style.visibility = "collapsed"
+                    y.style.opacity = "0"
+                }
+            }
+        </script>
+
+    </div>
+
+
     <div class="navbarContainer">
         <div class="navbarHolder">
 
@@ -328,9 +544,9 @@
 
                     <div class="settingsContainer">
                         <div class="settingsHolder">
-                            <h4 style="text-decoration: underline white;font-size: 16px;">Settings</h4>
+                            <h4 style="text-decoration: underline white;font-size: 16px;" id="settings">Settings</h4>
                             <div class="langSet">
-                                <p>Choose Language</p>
+                                <p id="choose-language">Choose Language</p>
                                 <input type="radio" name="lang" value="eng" checked>
                                 <label for="eng">🇬🇧</label><br>
     
@@ -342,7 +558,7 @@
                             </div>
 
                             <div class="ezanLangSet">
-                                <p>Choose Adhan Language</p>
+                                <p id="choose-language-adhan">Choose Adhan Language</p>
                                 <input type="radio" name="ezanlang" value="sa" checked>
                                 <label for="sa">🇸🇦</label><br>
     
@@ -351,7 +567,7 @@
                             </div>
 
                             <div class="citySet">
-                                <p>Choose City</p>
+                                <p id="choose-city">Choose City</p>
                                 <datalist id="cityList" style="z-index:-1"></datalist>
 
                                 <input id="cityInput" type="text" list="cityList" placeholder="Enter City Name" oninput=cityChosen()></input>
@@ -429,7 +645,7 @@
                             </div>
 
                             <div class="submitSet">
-                                <button class="submitSetButton" id="submitSetButton" onclick="translatePage()">Save</button>
+                                <button class="submitSetButton" id="save" onclick="translatePage()">Save</button>
                             </div>
 
                         </div>
@@ -483,7 +699,7 @@
         <div class="timeTillContainer">
             <div class="timeTillHolder">
                 <p class="cityandDate text" id="ramazanDate">Oberhausen - Date</p>
-                <h3 class="timeText text">Time until iftar</h3>
+                <h3 class="timeText text" id="time-till-iftar">Time until iftar</h3>
                 <h1 class="timer text" id="timer">1:02:23</h3>
             </div>
         </div>
@@ -538,38 +754,84 @@
                 </div>
 
                 <div class="container" id="hadithContainer">
-                    <h3 id="hadithTitle">Hadith</h3>
+                    <h3 id="hadith">Hadith</h3>
                     <h4 id="hadithGiver" class="otherTitles">Hadith</h4>
                     <p class="otherText hadithText" id="hadithText"></p>
-                </div>
-
-                <div class="container" id="prayerContainer">
-                    <h3>Prayer</h3>
-                    <p>lorem100</p>
                 </div>
 
                 <div class="container" id="nameContainer">
                     
                     <h3 id="nameTitle">Surah</h3>
-                    <h2 class="otherTitles" id="nameTitleArb">Surah</h2>
+                    <h2 class="otherTitles" id="nameTitleArb"></h2>
+                    <hr width="90%" opacity=".5" color="#f12a11">
                     <p class="otherText" id="nameDef"></p>
                 </div>
 
-                <div class="container" id="kindnessContainer">
-                    <h3>Kind act of the day</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fugit asperiores unde. Eaque quod eligendi quos illum quasi, sint quo asperiores ducimus repellendus, dolores beatae, magni qui. Vero quos cupiditate ipsum quis, voluptas quia culpa, temporibus fuga rerum consequatur nostrum. Laboriosam, tempore. Iure dolor voluptatibus impedit amet vitae, commodi quaerat hic distinctio veritatis laborum unde! Quae, libero. Rerum laborum placeat minus asperiores maiores, eligendi quo adipisci quae dolore, quidem mollitia ducimus beatae est? Dolorem, consectetur neque! Voluptas sit mollitia eveniet impedit laudantium recusandae, neque, unde error ratione doloremque odit harum cum in corporis itaque repudiandae delectus. Quas, veniam officiis! Quis?</p>
+                <div class="container quranRadioContainer" id="quranRadioContainer">
+                    <h3>Quran Radio</h3>
+                
+
+                    <div class="quranRadioContCntr">
+                        <button onclick="playRadio()" class="QrRadioPlay" id="QrRadioPlay">▶</button>
+
+                        <select name="QrDrpdwnBttn" class="QrDrpdwnBttn" id="QrDrpdwnBttn">
+                            <option value="sa">Arabic</option>
+                            <option value="eng">English</option>
+                            <option value="tur">Turkish</option>
+                            <option value="de">German</option>
+                        </select>
+
+                    </div>
+
+                    <input type="range" class="QrRadioVolume" id="QrRadioVolume" name="QrRadioVolume" min="0" max="100" value="60">
+
+                </div>
+
+                <div class="container" id="datesContainer">
+                    <h3>Islamic Dates</h3>
+                    <div class="datesHolder">
+
+                        <!--<div class="date">
+                            <div class="dateDay">
+                                <b>23 Ocak</b>
+                                <p>:</p>
+                            </div>
+                            <div class="dateName">
+                                <p>Üç aylar başlangıcı</p>
+                            </div>
+                        </div>-->
+
+                        <p><b>26 January:</b> Laylat al-Raghaib</p>
+                        <p><b>17 February:</b> Al Isra’ wal Mi’raj</p>
+                        <p><b>6 March:</b> Shab-e-Barat</p>
+                        <p><b>23 March:</b> Ramadan begin</p>
+                        <p><b>17 April:</b> Laylatul Qadr</p>
+                        <p><b>20 April:</b> Eid al Fitr Eve</p>
+                        <p><b>21-23 April:</b> Eid al Fitr</p>
+                        <p><b>27 June:</b> Day of 'Arafah</p>
+                        <p><b>28 June - 1 July:</b> Eid al Adha</p>
+                        <p><b>19 July:</b> Islamic New Year</p>
+                        <p><b>28 July:</b> Day of Ashura</p>
+                        <p><b>26 September:</b> Rabi’ Al-Awwal</p>
+                    </div>
                 </div>
 
                 <div class="container" id="linkContainer">
                     <h3>Other links</h3>
-                    <p>lorem100</p>
+                    <div class="linkHolder">
+                        <a href="https://lemustache.net">• LeMustache.net</a>
+                        <a href="https://lemustache.net#aboutFrame">• About</a>
+                        <a href="https://lemustache.net#contactFrame">• Contact</a>
+                        <a href="https://github.com/LeMoustache/time-till-iftar">• Github</a>
+                        <a href="https://github.com/LeMoustache/time-till-iftar/sources.txt">• Sources</a>
+                    </div>
                 </div>
 
             </div>   
         </div>
 
         <div class="footerContainer" style="background-color: #f12a11; height: fit-content;">
-            <p>Ramadan Mubarak</p>
+            <p id="ramadan-mubarak">Ramadan Mubarak</p>
             <p>Made with 🧡 by
                 <a href="https://lemustache.net">LeMustache</a>
             </p>
@@ -717,10 +979,11 @@
             $.get("https://ipinfo.io", function(response) {
                 var userIp = response.ip; // get visitor ip
 
+                // get visitor data
                 var userLat = response.loc.split(",")[0]; // get visitor latitude from location
                 var userLong = response.loc.split(",")[1]; // get visitor longtitude from location
-                var userCity = response.city; // get visitor city name
-                var userTimeZone = response.timezone // get visitor time zone
+                var userCity = response.city; 
+                var userTimeZone = response.timezone /
 
                 getPrayerTimes(userLat, userLong, userTimeZone, userCity)
             }, "json")
@@ -728,8 +991,10 @@
 
     <script src="javascript/get-surah.js"></script>
     <script src="javascript/get-hadith.js"></script>
-    <script src="javascript/get-name copy.js"></script>
-    <script>function translatePage(){translateSurah();translateHadith();translateName()}</script>
+    <script src="javascript/get-name.js"></script>
+    <script src="javascript/language.js"></script>
+    <script src="javascript/Quran-radio.js"></script>
+    <script>function translatePage(){translateSurah();translateHadith();translateName();translateAll()}</script>
 
 </body>
 
