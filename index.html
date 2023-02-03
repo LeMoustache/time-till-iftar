@@ -91,6 +91,7 @@
         color: white;
 
         font-size: 20px;
+
     }
 
     .otherContainer{
@@ -142,6 +143,8 @@
     .titleButton button{
         border: none;
         background: none;
+
+        z-index: 3;
     }
 
     .quranRadioContainer{
@@ -154,6 +157,8 @@
 
     .QrRadioPlay{
         background: none;
+
+        z-index: 2;
     }
 
     .quranRadioContCntr{
@@ -194,6 +199,8 @@
         accent-color: #f12a11;
 
         width: 30%;
+
+        z-index: 2;
     }
 
     .datesHolder{
@@ -249,6 +256,7 @@
         margin-left: auto;
         margin-right: auto;
         
+        z-index: 99;
     }
 
     .footerContainer a{
@@ -272,6 +280,8 @@
         color: white;
 
         transition: 1s ease;
+
+        z-index: 3;
 
     }
 
@@ -325,6 +335,8 @@
         height: 400px;
 
         color: white;
+
+        z-index: 2;
 
     }
 
@@ -706,7 +718,7 @@
 
         <div class="prayerTimesContainer">
             <div class="prayerTimesHolder">
-                <p class="timeTitle" id="prayerTimesText">Sabah: 07.12, Öğle: 12.18, İkindi: 15.21, Akşam: 20.23, Yatsı: 21.23</p>
+                <p class="timeTitle" id="prayerTimesText">Sabah: 07.12 Öğle: 12.18 İkindi: 15.21 Akşam: 20.23 Yatsı: 21.23</p>
             </div>
 
             <script id="getPrayerTimes">
@@ -731,6 +743,7 @@
                     // update website
                     startTimer(fajrTime,dhuhrTime,asrTime,maghribTime,ishaTime,city,moment(prayerTimes.maghrib).tz(timezone).format('LL HH:mm:ss'),timezone);
                 }
+
             </script>
 
         </div>
@@ -743,7 +756,7 @@
                     
                     <div class="titleButton" style="display:flex;justify-content: center;">
                         <h3 id="surahTitleEng">Surah</h3>
-                        <button onclick="playSurah()" id="surahAudioButton">▶</button>
+                        <button onclick="playSurah()" id="surahAudioButton" class="surahAudioButton">▶</button>
                     </div>
 
                     <h2 id="surahTitleArb" class="otherTitles surahTitleArb">Surah</h2>
@@ -768,7 +781,7 @@
                 </div>
 
                 <div class="container quranRadioContainer" id="quranRadioContainer">
-                    <h3>Quran Radio</h3>
+                    <h3 id="quran-radio">Quran Radio</h3>
                 
 
                     <div class="quranRadioContCntr">
@@ -788,7 +801,7 @@
                 </div>
 
                 <div class="container" id="datesContainer">
-                    <h3>Islamic Dates</h3>
+                    <h3 id="islamic-dates">Islamic Dates</h3>
                     <div class="datesHolder">
 
                         <!--<div class="date">
@@ -801,18 +814,18 @@
                             </div>
                         </div>-->
 
-                        <p><b>26 January:</b> Laylat al-Raghaib</p>
-                        <p><b>17 February:</b> Al Isra’ wal Mi’raj</p>
-                        <p><b>6 March:</b> Shab-e-Barat</p>
-                        <p><b>23 March:</b> Ramadan begin</p>
-                        <p><b>17 April:</b> Laylatul Qadr</p>
-                        <p><b>20 April:</b> Eid al Fitr Eve</p>
-                        <p><b>21-23 April:</b> Eid al Fitr</p>
-                        <p><b>27 June:</b> Day of 'Arafah</p>
-                        <p><b>28 June - 1 July:</b> Eid al Adha</p>
-                        <p><b>19 July:</b> Islamic New Year</p>
-                        <p><b>28 July:</b> Day of Ashura</p>
-                        <p><b>26 September:</b> Rabi’ Al-Awwal</p>
+                        <div class="date"><b id="26-january">26 January:</b> <p id="Laylatal-Raghaib">Laylat al-Raghaib</p></div>
+                        <div class="date"><b id="17-february">17 February:</b> <p id="AlIsra’walMi’raj"> Al Isra’ wal Mi’raj</p></div>
+                        <div class="date"><b id="6-march">6 March:</b> <p id="Shab-e-Barat"> Shab-e-Barat</p></div>
+                        <div class="date"><b id="23-march">23 March:</b> <p id="Ramadan-begin"> Ramadan begin</p></div>
+                        <div class="date"><b id="17-april">17 April:</b> <p id="LaylatulQadr"> Laylatul Qadr</p></div>
+                        <div class="date"><b id="20-april">20 April:</b> <p id="EidalFitrEve"> Eid al Fitr Eve</p></div>
+                        <div class="date"><b id="21-23-april">21-23 April:</b> <p id="EidAlFitr"> Eid al Fitr</p></div>
+                        <div class="date"><b id="27-june">27 June:</b> <p id="dayofarafah"> Day of 'Arafah</p></div>
+                        <div class="date"><b id="28-june-1-july">28 June - 1 July:</b> <p id="eidaladha"> Eid al Adha</p></div>
+                        <div class="date"><b id="19-july">19 July:</b> <p id="islamicnewyear"> Islamic New Year</p></div>
+                        <div class="date"><b id="28-july">28 July:</b> <p id="dayofashura"> Day of Ashura</p></div>
+                        <div class="date"><b id="26-september">26 September:</b> <p id="rabialawwal"> Rabi’ Al-Awwal</p></div>
                     </div>
                 </div>
 
@@ -823,7 +836,7 @@
                         <a href="https://lemustache.net#aboutFrame">• About</a>
                         <a href="https://lemustache.net#contactFrame">• Contact</a>
                         <a href="https://github.com/LeMoustache/time-till-iftar">• Github</a>
-                        <a href="https://github.com/LeMoustache/time-till-iftar/sources.txt">• Sources</a>
+                        <a href="https://github.com/LeMoustache/time-till-iftar/blob/master/readme.md">• Sources</a>
                     </div>
                 </div>
 
@@ -839,6 +852,7 @@
     </div>
 
     <script id="updateScript">
+        
 
         // set Adhan Lang
         function updateSet(){
@@ -859,9 +873,43 @@
 
         var timesFired = 0
 
-        function startTimer(fajrTime, dhuhrTime, asrTime, maghribTime, ishaTime, userCity,maghribCounterTime,timeZone){
-                    
+        function updateSalahNames(){
 
+            lang = document.querySelector('input[name="lang"]:checked').value; // get translated name
+
+            salahName = {
+                "eng":{
+                    "fajr":"Fajr: ",
+                    "dhuhr":" Dhuhr: ",
+                    "asr":" Asr: ",
+                    "maghrib":" Maghrib: ",
+                    "isha":" Isha: ",
+                },
+
+                "tur":{
+                    "fajr":"Sabah: ",
+                    "dhuhr":" Öğle: ",
+                    "asr":" İkindi: ",
+                    "maghrib":" Akşam: ",
+                    "isha":" Yatsı: ",
+                }
+            }
+
+            prayerTimes = document.getElementById("prayerTimesText")
+
+            // get the times from the whole text
+            fajrTime = prayerTimes.innerHTML.split(' ')[1]
+            dhuhrTime = prayerTimes.innerHTML.split(' ')[3]
+            asrTime  = prayerTimes.innerHTML.split(' ')[5]
+            maghribTime = prayerTimes.innerHTML.split(' ')[7]
+            ishaTime = prayerTimes.innerHTML.split(' ')[9]
+
+            prayerTimes.innerHTML = salahName[lang]["fajr"] +fajrTime+ salahName[lang]["dhuhr"] +dhuhrTime+ salahName[lang]["asr"] +asrTime+ salahName[lang]["maghrib"] +maghribTime+ salahName[lang]["isha"] +ishaTime
+        }
+
+
+        function startTimer(fajrTime, dhuhrTime, asrTime, maghribTime, ishaTime, userCity,maghribCounterTime,timeZone){  
+            
             // document.getElementById("prayerTimesText").innerHTML = "Yükleniyor.."
             // document.getElementById("timer").innerHTML = "Yükleniyor"; // change text to IFTAR VAKTI
 
@@ -872,10 +920,13 @@
              
             // update website
             document.getElementById("ramazanDate").innerHTML = userCity + " - " + ramazanDate + ". Day of Ramadan" ;
-            document.getElementById("prayerTimesText").innerHTML = "Farj: "+fajrTime +", Dhuhr: "+dhuhrTime+", Asr: "+asrTime+", Maghrib: "+maghribTime+", Isha: "+ishaTime
-            
-            //-----------
 
+            // update the salah times so the other function doesnt get them wrong the first time fired
+            document.getElementById("prayerTimesText").innerHTML = "loading " +fajrTime+ " loading " +dhuhrTime+ " loading " +asrTime+ " loading " +maghribTime+ " loading " +ishaTime
+            updateSalahNames()
+
+            //-----------
+            
             // reset variables
             timesFired = timesFired+1;
             var distance = 1;
@@ -983,7 +1034,7 @@
                 var userLat = response.loc.split(",")[0]; // get visitor latitude from location
                 var userLong = response.loc.split(",")[1]; // get visitor longtitude from location
                 var userCity = response.city; 
-                var userTimeZone = response.timezone /
+                var userTimeZone = response.timezone
 
                 getPrayerTimes(userLat, userLong, userTimeZone, userCity)
             }, "json")
@@ -994,7 +1045,7 @@
     <script src="javascript/get-name.js"></script>
     <script src="javascript/language.js"></script>
     <script src="javascript/Quran-radio.js"></script>
-    <script>function translatePage(){translateSurah();translateHadith();translateName();translateAll()}</script>
+    <script>function translatePage(){translateSurah();translateHadith();translateName();translateAll();updateSalahNames()}</script>
 
 </body>
 

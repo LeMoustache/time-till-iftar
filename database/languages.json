@@ -10,7 +10,8 @@
       "choose-city":"Choose City",
       "save":"Save",
       "ramadan-mubarak":"Ramadan Mubarak",
-      "quran-radio":"Quran Radio"
+      "quran-radio":"Quran Radio",
+      "islamic-dates":"Islamic Dates - 2023"
    },
 
    "tur" : {
@@ -24,6 +25,7 @@
         "choose-city":"Şehir Seç",
         "save":"Kaydet",
         "ramadan-mubarak":"Ramazanınız Mübarek Olsun",
-        "quran-radio":"Kuran Radyo"
+        "quran-radio":"Kuran Radyo",
+        "islamic-dates":"Dini Günler - 2023"
      }
 }
